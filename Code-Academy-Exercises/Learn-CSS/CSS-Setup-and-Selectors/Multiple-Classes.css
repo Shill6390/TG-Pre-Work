@@ -1,0 +1,19 @@
+p {
+      font-family: Arial;
+    }
+
+h1 {
+  		color: maroon;
+}
+
+.title {
+  		color: teal;
+}
+
+.uppercase {
+  		text-transform: uppercase;
+}
+
+/* Multiple CSS classes can be applied to one HTML element.
+
+The two CSS rules, .title and .uppercase, can be added to the HTML element class attribute. */

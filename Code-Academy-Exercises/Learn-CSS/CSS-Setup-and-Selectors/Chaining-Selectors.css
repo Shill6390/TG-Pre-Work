@@ -1,0 +1,37 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+/* it's possible to require an HTML element to have two or more CSS selectors at the same time. This is done by combining multiple selectors, which is referred to as chaining.
+
+A chained or qualified selector has a higher specificity than a class selector but a lower specificity than the id selector. Hence, assuming these selectors are all targeting the same HTML tag, the specificity from highest to lowest would be:
+1) #special
+2) h1.special
+3) .special */
