@@ -1,0 +1,38 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+/*  Nested elements can be selected by separating selectors with a space.
+
+I learned how to use CSS selectors to target Nested Elements. In practice we should aim to keep our selectors short. As a very general rule of thumb, if our descendant selectors start to become greater than 3 levels deep we may want to consider ways to more specifically target the element in question. For example, perhaps we can throw a class on the targeted element instead of using a deeply nested selector. */

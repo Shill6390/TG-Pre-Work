@@ -1,0 +1,22 @@
+p {
+      font-family: Arial;
+    }
+
+h1 {
+  		color: maroon;
+}
+
+.title {
+  		color: teal;
+}
+
+.uppercase {
+  		text-transform: uppercase;
+}
+
+#article-title {
+  		font-family: cursive;
+			text-transform: capitalize;
+}
+
+/* To add an ID to an element, the element needs an id attribute. This is added to the HTML. To select an ID element in CSS, add a hashtag before the id name. Capitalize puts an Initial Cap on each word.  */

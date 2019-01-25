@@ -1,0 +1,5 @@
+p {
+      font-family: Arial;
+    }
+
+    /* Developers avoid mixing code by storing HTML and CSS code in separate files (HTML files contain only HTML code, and CSS files contain only CSS code). We want to “separate our concerns” because this usually creates codebases that are more flexible, readable, and maintainable. */
